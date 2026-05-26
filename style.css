@@ -5,10 +5,11 @@
   font-family:'Poppins',sans-serif;
 }
 
-body{
+ body{
   min-height:100vh;
-  background:
-  linear-gradient(135deg,#ff88e9,#df99ffd3,#ff72ec);
+  /* Gradiente suave com tons de vermelho cupido/coral e rosa romântico */
+  background: 
+  linear-gradient(135deg, #ff9494, #ffb3b3d3, #ff7e7e);
 
   overflow-x:hidden;
 
@@ -28,15 +29,15 @@ body::before{
   position:fixed;
   inset:0;
 
-  background:
-  radial-gradient(circle at top left,
-  rgba(255, 82, 232, 0.7),
-  transparent 35%);
+  /* Um brilho radial sutil no canto superior esquerdo para dar profundidade */
+  background: 
+  radial-gradient(circle at top left, 
+  rgba(255, 105, 105, 0.6), 
+  transparent 40%);
 
   pointer-events:none;
 }
-
-/* CARD */
+/* FUNDO */
 
 .container{
 
@@ -78,6 +79,8 @@ body::before{
 
 h1{
   color:#dd00ff;
+  font-family:"Emilys Candy", serif;
+
   font-size:2rem;
   margin-bottom:10px;
 }
