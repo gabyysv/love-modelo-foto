@@ -65,7 +65,7 @@ function createFloatingHeart(){
   heart.classList.add("heart");
 
   heart.innerHTML =
-  ["💜","💕","💖","✨"][Math.floor(Math.random()*4)];
+  ["💗ྀ","💕","💖","💌"][Math.floor(Math.random()*4)];
 
   heart.style.left =
   Math.random()*100 + "vw";
